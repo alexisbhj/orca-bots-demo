@@ -18,4 +18,4 @@ npm test
 git push -u origin demo/bug-plante
 ```
 
-puis ouvrir une PR vers `main`. Le commit « refacto arrondi remise » casse le test `computeDiscount > arrondit la remise au centime le plus proche`.
+puis ouvrir une PR vers `main`. Le commit « refacto arrondi remise » casse le test `computeDiscount > arrondit la remise au centime le plus proche` (et, par ricochet, `panier > calcule le total TTC avec remise`).
